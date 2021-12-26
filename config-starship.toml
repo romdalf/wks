@@ -1,0 +1,9 @@
+format = """
+[┌───────────────────>](bold blue)$directory
+[│](bold blue)$git_branch$git_commit$docker_context$go$helm$perl$python$kubernetes
+[└─>](bold blue) """
+
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
